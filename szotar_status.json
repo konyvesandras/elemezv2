@@ -1,0 +1,14 @@
+{
+    "srcLang": "hu",
+    "targetLang": "hu,en,hi",
+    "original": "lábait.",
+    "translated": {
+        "hu": "lábait.",
+        "en": "legs.",
+        "hi": "पैर।"
+    },
+    "progress": "5 \/ 5",
+    "history": [
+        "lábait."
+    ]
+}
