@@ -1,1 +1,21 @@
-
+{
+  "hu": {
+  "ige": "Cselekvést, történést vagy létezést kifejező szó.",
+  "főnév": "Személyt, tárgyat, fogalmat vagy élőlényt jelölő szó.",
+  "főnév+tárgyeset": "Tárgyesetű főnév, gyakran a cselekvés célpontja.",
+  "melléknév": "Tulajdonságot vagy minőséget kifejező szó.",
+  "határozószó": "Időt, helyet, módot vagy okot kifejező szó.",
+  "névmás": "Más szavakat helyettesítő szó (pl. ő, ez, az).",
+  "számnév": "Mennyiséget vagy sorrendet kifejező szó.",
+  "kötőszó": "Mondatrészeket vagy mondatokat kapcsol össze.",
+  "viszonyszó": "Nyelvtani viszonyokat kifejező szó (pl. névutó, segédige).",
+  "egyéb": "Nem besorolható vagy többértelmű nyelvi elem."
+  },
+  "en": {
+    "verb": "A word that expresses an action or state.",
+    "noun": "A word that names a person, place, thing, or idea.",
+    "adjective": "A word that describes a noun.",
+    "adverb": "A word that modifies a verb, adjective, or other adverb.",
+    "conjunction": "A word that connects clauses or sentences."
+  }
+}

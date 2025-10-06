@@ -1,0 +1,29 @@
+{
+    "alanyok": [
+        "én",
+        "te",
+        "ő",
+        "mi",
+        "ti",
+        "ők",
+        "emberek",
+        "nép",
+        "sokaság"
+    ],
+    "allitmanyok": [
+        "van",
+        "volt",
+        "lesz",
+        "tesz",
+        "mond",
+        "tanította",
+        "kiáltanak",
+        "megtapintják"
+    ],
+    "targyak": [
+        "könyvet",
+        "szöveget",
+        "kezeimet",
+        "keresztelés"
+    ]
+}
