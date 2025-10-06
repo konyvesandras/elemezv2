@@ -1,1 +1,79 @@
+/* 🌞 Világos mód */
+body.light-mode {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.light-mode .word {
+  padding: 2px 4px;
+  margin: 1px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode .noun        { background-color: #d0eaff; color: #000; }
+body.light-mode .verb        { background-color: #d0ffd6; color: #000; }
+body.light-mode .instrumental{ background-color: #ffe0f0; color: #000; }
+body.light-mode .ablative    { background-color: #f0e0ff; color: #000; }
+body.light-mode .sublative   { background-color: #fff0d0; color: #000; }
+body.light-mode .adessive    { background-color: #e0fff0; color: #000; }
+body.light-mode .translative { background-color: #f0f0ff; color: #000; }
+body.light-mode .postposition{ background-color: #f0f0f0; color: #000; }
+body.light-mode .temporal    { background-color: #f0ffe0; color: #000; }
+
+body.light-mode .alany       { border-bottom: 2px solid #0077cc; }
+body.light-mode .allitmany   { border-bottom: 2px dashed #cc0077; }
+body.light-mode .targy       { border-bottom: 2px dotted #009933; }
+
+body.light-mode .selected    { background-color: #ffe08a; color: #000; }
+
+body.light-mode .forditas {
+  color: #444;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+
+/* 🌙 Sötét mód */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+body.dark-mode .word {
+  padding: 2px 4px;
+  margin: 1px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode .noun        { background-color: #005f99; color: #fff; }
+body.dark-mode .verb        { background-color: #007f4f; color: #fff; }
+body.dark-mode .instrumental{ background-color: #8f005f; color: #fff; }
+body.dark-mode .ablative    { background-color: #5f3f99; color: #fff; }
+body.dark-mode .sublative   { background-color: #996f00; color: #fff; }
+body.dark-mode .adessive    { background-color: #007f7f; color: #fff; }
+body.dark-mode .translative { background-color: #4f4f99; color: #fff; }
+body.dark-mode .postposition{ background-color: #444; color: #fff; }
+body.dark-mode .temporal    { background-color: #5f9933; color: #fff; }
+
+body.dark-mode .alany       { border-bottom: 2px solid #66ccff; }
+body.dark-mode .allitmany   { border-bottom: 2px dashed #ff66cc; }
+body.dark-mode .targy       { border-bottom: 2px dotted #66ff99; }
+
+body.dark-mode .selected    { background-color: #ccaa00; color: #000; }
+body.dark-mode .forditas {
+  color: #ffd; /* halvány sárgás-fehér */
+  font-style: italic;
+  opacity: 0.95;
+}
+
+/* ✨ Lebegés és interakció */
+.word:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+  cursor: help; /* 💡 utal rá, hogy magyarázat van */
+}
 
